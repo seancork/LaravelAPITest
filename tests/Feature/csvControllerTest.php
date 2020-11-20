@@ -56,7 +56,7 @@ $response
         ->assertJsonFragment([
             'age' => 2,
             'dups' => 3,
-            'precentage' => 30
+            'percentage' => 30
         ]);
     }
 }

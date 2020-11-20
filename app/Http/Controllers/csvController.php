@@ -45,7 +45,7 @@ class csvController extends Controller
      	if($i > 1){
       		$optvar[$index]['age'] = $index;
       		$optvar[$index]['dups'] = $i;
-      		$optvar[$index]['precentage'] = ($i / $content[1]) * 100 ;
+      		$optvar[$index]['percentage'] = ($i / $content[1]) * 100 ;
      }
    }
  }
